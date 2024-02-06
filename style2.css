@@ -3,15 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
-.pg{
+html, body{
     width: 100%;
     height: 100%;
-    border-bottom: 2px soild black;
 }
-body::-webkit-scrollbar{
-    background-color: transparent;
-}
-body::-webkit-scrollbar-thumb{
-    background:linear-gradient(red, aqua, blue, black);
-    border: radius 40px; ;
+.html h2{
+    text-align: center;
+    background-color: aquamarine;
 }
