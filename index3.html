@@ -10,7 +10,7 @@
 <body>
     <form autocomplete="off" method="post" name="google-sheet">
     <div class="form">
-        <h1>Regstration Form</h1>
+        <h1>Regstration Form</h1><h6>PRASHAR COMPUTER INSTITUTE GAYGHAT</h6>
         <div class="input">
             <input type="text" required placeholder="First Name" required class="fname" name="FirstName">
         
@@ -41,6 +41,11 @@
             <input type="radio" required name="r1" male required value="Male">Male
             <input type="radio" required name="r1" female required value="Female">Female
         </div>
+        <div class="Number">
+            <input type="radio" required name="r2" value="50"> Rs : 50
+            <input type="radio" required name="r2" value="100"> Rs : 100
+            <input type="radio" required name="r2" value="200"> Rs : 200
+        </div>
         <!--
         <select name="degree" class="select">
             <option name="NotSelected">Select an option</option>
@@ -64,7 +69,7 @@
         form.addEventListener('submit', e => {
           e.preventDefault()
           fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-            .then(response => alert("Thanks for Contacting us..! We Will Contact You Soon..."))
+            .then(response => alert("Thanks for Contacting us..!..."))
             .catch(error => console.error('Error!', error.message))
         })
       </script>
